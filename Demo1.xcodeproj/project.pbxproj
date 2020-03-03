@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE391F84240C460C00788E42 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = CE391F83240C460C00788E42 /* Car.m */; };
+		CE391F87240C6D2700788E42 /* Car+SoundSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE391F86240C6D2700788E42 /* Car+SoundSystem.m */; };
 		CED6EB68240C37D2006EC4C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6EB67240C37D2006EC4C7 /* main.m */; };
+		CED6EB71240C397A006EC4C7 /* RSPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CED6EB70240C397A006EC4C7 /* RSPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE391F82240C460C00788E42 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		CE391F83240C460C00788E42 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		CE391F85240C6D2700788E42 /* Car+SoundSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Car+SoundSystem.h"; sourceTree = "<group>"; };
+		CE391F86240C6D2700788E42 /* Car+SoundSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Car+SoundSystem.m"; sourceTree = "<group>"; };
 		CED6EB64240C37D2006EC4C7 /* Demo1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Demo1; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED6EB67240C37D2006EC4C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CED6EB6F240C397A006EC4C7 /* RSPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSPoint.h; sourceTree = "<group>"; };
+		CED6EB70240C397A006EC4C7 /* RSPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				CED6EB67240C37D2006EC4C7 /* main.m */,
+				CE391F85240C6D2700788E42 /* Car+SoundSystem.h */,
+				CE391F86240C6D2700788E42 /* Car+SoundSystem.m */,
+				CE391F82240C460C00788E42 /* Car.h */,
+				CE391F83240C460C00788E42 /* Car.m */,
+				CED6EB6F240C397A006EC4C7 /* RSPoint.h */,
+				CED6EB70240C397A006EC4C7 /* RSPoint.m */,
 			);
 			path = Demo1;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE391F84240C460C00788E42 /* Car.m in Sources */,
 				CED6EB68240C37D2006EC4C7 /* main.m in Sources */,
+				CED6EB71240C397A006EC4C7 /* RSPoint.m in Sources */,
+				CE391F87240C6D2700788E42 /* Car+SoundSystem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +257,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6GLP9933;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -249,7 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YC6GLP9933;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
